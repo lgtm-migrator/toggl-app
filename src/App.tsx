@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
 import { Route } from 'react-router'
-import ReportPage from './pages/Reports'
-import SettingsPage from './pages/Settings'
-import AppBar from './common/AppBar'
+import ReportPage from './pages/Reports/Reports'
+import SettingsPage from './pages/Settings/Settings'
+import AppBar from './common/AppBar/AppBar'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {

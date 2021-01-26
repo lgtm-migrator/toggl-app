@@ -2,7 +2,7 @@ import React from 'react'
 
 interface Props {}
 
-const index: React.FC<Props> = (props) => {
+const settings: React.FC<Props> = (props) => {
   return (
     <>
       <h1>Settings</h1>
@@ -10,4 +10,4 @@ const index: React.FC<Props> = (props) => {
   )
 }
 
-export default index
+export default settings
