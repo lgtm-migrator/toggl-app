@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import { Route } from 'react-router'
 import ReportPage from './pages/Reports/Reports'
 import SettingsPage from './pages/Settings/Settings'
