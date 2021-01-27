@@ -1,16 +1,19 @@
 import React from 'react'
 import { Route } from 'react-router'
-import ReportPage from './pages/Reports/Reports'
-import SettingsPage from './pages/Settings/Settings'
-import AppBar from './common/AppBar/AppBar'
+import ReportPage from './feature/Reports/presentation/pages/Reports'
+import SettingsPage from './feature/Settings/Settings'
+import AppBar from './core/AppBar/AppBar'
 import { BrowserRouter } from 'react-router-dom'
+import Content from './core/Content'
 
 function App() {
   return (
     <BrowserRouter>
       <AppBar />
-      <Route exact={true} path="/" component={ReportPage} />
-      <Route path="/settings" component={SettingsPage} />
+      <Content>
+        <Route exact={true} path="/" component={ReportPage} />
+        <Route path="/settings" component={SettingsPage} />
+      </Content>
     </BrowserRouter>
   )
 }
