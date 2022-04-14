@@ -41,7 +41,15 @@ const WeekTable = styled.table`
 `
 
 const Week: React.FC<Props> = (props) => {
-  const weekdays: Array<string> = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+  const weekdays: Array<string> = [
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+    'Sunday',
+  ]
 
   let id = 0
   const tags = Array.from(props.week.entries()).map(([tag, weekEntity]) => (

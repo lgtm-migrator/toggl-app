@@ -1,8 +1,6 @@
 import React from 'react'
 
-interface Props {}
-
-const appBar: React.FC<Props> = (props) => {
+const appBar: React.FC<{}> = () => {
   return <div className="appBar"></div>
 }
 

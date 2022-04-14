@@ -10,7 +10,10 @@ class TogglApi {
     this.apiKey = apiKey
     this.workspaceId = workspaceId
 
-    this.headers.append('Authorization', 'Basic ' + btoa(`${this.apiKey}:api_token`))
+    this.headers.append(
+      'Authorization',
+      'Basic ' + btoa(`${this.apiKey}:api_token`)
+    )
   }
 
   getReportsBetween(start: Date, end: Date): Promise<TimedEntry[]> {
@@ -24,7 +27,11 @@ class TogglApi {
         if (response.ok) {
           return response.json()
         } else {
-          throw Error(`Error connecting to Toggl: ${response.status}\n${JSON.stringify(response.body)}`)
+          throw Error(
+            `Error connecting to Toggl: ${response.status}\n${JSON.stringify(
+              response.body
+            )}`
+          )
         }
       })
       .then((json) => jsonToTimedEntries(json))
@@ -32,7 +39,10 @@ class TogglApi {
     return promise
   }
 
-  get(route: string, parameters: Map<string, any> = new Map<string, any>()): Promise<Response> {
+  get(
+    route: string,
+    parameters: Map<string, any> = new Map<string, any>()
+  ): Promise<Response> {
     parameters.set('user_agent', 'https://github.com/Senth/toggl-app')
     parameters.set('workspace_id', this.workspaceId)
 

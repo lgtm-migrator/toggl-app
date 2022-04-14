@@ -4,9 +4,7 @@ import DailyByTagsEntity from '../../domain/entities/DailyByTagsEntity'
 import ReportsUseCaseFactory from '../adapters/ReportsUseCaseFactory'
 import Week from '../components/Week'
 
-interface Props {}
-
-const Reports: React.FC<Props> = (props) => {
+const Reports: React.FC<never> = () => {
   const [report, setReport] = useState(new DailyByTagsEntity())
 
   useEffect(() => {

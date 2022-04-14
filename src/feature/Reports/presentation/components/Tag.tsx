@@ -9,7 +9,7 @@ const Tag: React.FC<Props> = (props) => {
   let sum = 0
 
   const days = props.durationByDay.map((duration) => {
-    let hours = duration / 60.0 / 60.0
+    const hours = duration / 60.0 / 60.0
     sum += hours
     return <td>{roundHours(hours)}</td>
   })

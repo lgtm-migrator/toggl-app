@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import TextInput from '../../core/components/TextInput'
 import LocalStorageKeys from '../../util/LocalStorageKeys'
 
-interface Props {}
-
-const Settings: React.FC<Props> = (props) => {
+const Settings: React.FC<never> = () => {
   const [apiKey, setApiKey] = useState('')
   const [workspaceId, setWorkspaceId] = useState('')
 

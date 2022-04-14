@@ -5,9 +5,7 @@ const Container = styled.div`
   margin: 20px;
 `
 
-interface Props {}
-
-const Content: React.FC<Props> = (props) => {
+const Content: React.FC<any> = (props) => {
   return <Container>{props.children}</Container>
 }
 

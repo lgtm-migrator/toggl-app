@@ -16,9 +16,11 @@ class DailyByTagsUsecase {
     const startDate = calculateStartOfWeek(previousWeekDay)
     const endDate = new Date()
 
-    const promise = this.repo.getReportsBetween(startDate, endDate).then((timedEntries) => {
-      return modelToEntity(timedEntries)
-    })
+    const promise = this.repo
+      .getReportsBetween(startDate, endDate)
+      .then((timedEntries) => {
+        return modelToEntity(timedEntries)
+      })
 
     // Calculate
     return promise
@@ -62,14 +64,14 @@ function calculateStartOfWeek(date: Date): Date {
 
   // Get
   const day = startDate.getDay()
-  let decreaseByDays = () => {
+  const decreaseByDays = () => {
     switch (day) {
-      case 0:
-        return 6
-      case 1:
-        return 0
-      default:
-        return day - 1
+    case 0:
+      return 6
+    case 1:
+      return 0
+    default:
+      return day - 1
     }
   }
   startDate.setDate(startDate.getDate() - decreaseByDays())
