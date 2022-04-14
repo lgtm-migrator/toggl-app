@@ -1,0 +1,26 @@
+name: lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: eslint & markdown
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install modules
+        run: make deps
+
+      - name: Run ESLint
+        run: make lint-eslint
+
+      - name: Prettier
+        run: make lint-prettier
+
+      - name: Markdown lint
+        run: make lint-markdown

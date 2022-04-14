@@ -1,0 +1,19 @@
+# This workflow will deploy the package
+
+name: Publish and deploy
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: deploy
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: make build
