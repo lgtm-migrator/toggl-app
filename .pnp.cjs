@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:17.0.24"],\
             ["@types/react", "npm:18.0.5"],\
-            ["@types/react-dom", "npm:17.0.11"],\
+            ["@types/react-dom", "npm:17.0.17"],\
             ["@types/react-router", "npm:5.1.18"],\
             ["@types/react-router-dom", "npm:5.3.3"],\
             ["@types/styled-components", "npm:5.1.25"],\
@@ -3854,7 +3854,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/runtime", "npm:7.17.9"],\
             ["@testing-library/dom", "npm:8.13.0"],\
             ["@types/react", "npm:18.0.5"],\
-            ["@types/react-dom", "npm:17.0.11"],\
+            ["@types/react-dom", "npm:17.0.17"],\
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:ff3491ca13c0db64479831213970524da3dedbcb66eeb0f7a842949d3be434a6d7eebdf2fe36744559aa4d3adadecc3d8f13afc0ccc92f26e1fc5880a2d76a92#npm:18.0.0"]\
           ],\
@@ -4298,6 +4298,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react", [\
+        ["npm:17.0.45", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-17.0.45-09fff34e88-3cc13a0282.zip/node_modules/@types/react/",\
+          "packageDependencies": [\
+            ["@types/react", "npm:17.0.45"],\
+            ["@types/prop-types", "npm:15.7.5"],\
+            ["@types/scheduler", "npm:0.16.2"],\
+            ["csstype", "npm:3.0.11"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:18.0.5", {\
           "packageLocation": "./.yarn/cache/@types-react-npm-18.0.5-ee9b2b1f01-70d3336d43.zip/node_modules/@types/react/",\
           "packageDependencies": [\
@@ -4310,11 +4320,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react-dom", [\
-        ["npm:17.0.11", {\
-          "packageLocation": "./.yarn/cache/@types-react-dom-npm-17.0.11-fc2e584a96-4d5730dffb.zip/node_modules/@types/react-dom/",\
+        ["npm:17.0.17", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-17.0.17-edb158f2b2-23caf98aa0.zip/node_modules/@types/react-dom/",\
           "packageDependencies": [\
-            ["@types/react-dom", "npm:17.0.11"],\
-            ["@types/react", "npm:18.0.5"]\
+            ["@types/react-dom", "npm:17.0.17"],\
+            ["@types/react", "npm:17.0.45"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14074,7 +14084,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react-router-dom", "virtual:ff3491ca13c0db64479831213970524da3dedbcb66eeb0f7a842949d3be434a6d7eebdf2fe36744559aa4d3adadecc3d8f13afc0ccc92f26e1fc5880a2d76a92#npm:6.3.0"],\
             ["@types/react", "npm:18.0.5"],\
-            ["@types/react-dom", "npm:17.0.11"],\
+            ["@types/react-dom", "npm:17.0.17"],\
             ["history", "npm:5.3.0"],\
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:ff3491ca13c0db64479831213970524da3dedbcb66eeb0f7a842949d3be434a6d7eebdf2fe36744559aa4d3adadecc3d8f13afc0ccc92f26e1fc5880a2d76a92#npm:18.0.0"],\
@@ -15360,7 +15370,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/stylis", "npm:0.8.5"],\
             ["@emotion/unitless", "npm:0.7.5"],\
             ["@types/react", "npm:18.0.5"],\
-            ["@types/react-dom", "npm:17.0.11"],\
+            ["@types/react-dom", "npm:17.0.17"],\
             ["@types/react-is", null],\
             ["babel-plugin-styled-components", "virtual:4a5aac6f2ee8da3f011795f9b8d2f702d15611a9f54841d51552afbb766332e2a9e9fd0acc5a3104d04e0a9d73261889a34b2295320d8a2b0125f4d562b86d72#npm:2.0.7"],\
             ["css-to-react-native", "npm:3.0.0"],\
@@ -15742,7 +15752,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.4.1"],\
             ["@types/node", "npm:17.0.24"],\
             ["@types/react", "npm:18.0.5"],\
-            ["@types/react-dom", "npm:17.0.11"],\
+            ["@types/react-dom", "npm:17.0.17"],\
             ["@types/react-router", "npm:5.1.18"],\
             ["@types/react-router-dom", "npm:5.3.3"],\
             ["@types/styled-components", "npm:5.1.25"],\
