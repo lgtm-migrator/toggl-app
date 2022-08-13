@@ -5447,6 +5447,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"entities@npm:~3.0.1":
+  version: 3.0.1
+  resolution: "entities@npm:3.0.1"
+  checksum: aaf7f12033f0939be91f5161593f853f2da55866db55ccbf72f45430b8977e2b79dbd58c53d0fdd2d00bd7d313b75b0968d09f038df88e308aa97e39f9456572
+  languageName: node
+  linkType: hard
+
 "env-paths@npm:^2.2.0":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
@@ -6573,6 +6580,19 @@ __metadata:
   dependencies:
     type-fest: ^0.20.2
   checksum: c55ea8fd3afecb72567bac41605577e19e68476993dfb0ca4c49b86075af5f0ae3f0f5502525f69010f7c5ea5db6a1c540a80a4f80ebdfb2f686d87b0f05d7e9
+  languageName: node
+  linkType: hard
+
+"globby@npm:13.1.2":
+  version: 13.1.2
+  resolution: "globby@npm:13.1.2"
+  dependencies:
+    dir-glob: ^3.0.1
+    fast-glob: ^3.2.11
+    ignore: ^5.2.0
+    merge2: ^1.4.1
+    slash: ^4.0.0
+  checksum: c148fcda0c981f00fb434bb94ca258f0a9d23cedbde6fb3f37098e1abde5b065019e2c63fe2aa2fad4daf2b54bf360b4d0423d85fb3a63d09ed75a2837d4de0f
   languageName: node
   linkType: hard
 
@@ -8205,6 +8225,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"linkify-it@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "linkify-it@npm:4.0.1"
+  dependencies:
+    uc.micro: ^1.0.1
+  checksum: 3e0a29921269c14eb7ac6f5db2da68d4854ea9acca6e9014a323f75f2dd39b197ffab57c1fbd6a906ceb021aad3ee6d7ba7d0181236dd9630ffc452b392f7f71
+  languageName: node
+  linkType: hard
+
 "loader-runner@npm:^4.2.0":
   version: 4.3.0
   resolution: "loader-runner@npm:4.3.0"
@@ -8413,6 +8442,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it@npm:13.0.1":
+  version: 13.0.1
+  resolution: "markdown-it@npm:13.0.1"
+  dependencies:
+    argparse: ^2.0.1
+    entities: ~3.0.1
+    linkify-it: ^4.0.1
+    mdurl: ^1.0.1
+    uc.micro: ^1.0.5
+  bin:
+    markdown-it: bin/markdown-it.js
+  checksum: faf5891d389dc433bcf21d3fbff2009beb044b42b117c92f4848899780ca1a2282a209e3ff4672db4afed726a7248304ec473e6e242a7d6498af7113d31974e7
+  languageName: node
+  linkType: hard
+
 "markdown@npm:0.5.0":
   version: 0.5.0
   resolution: "markdown@npm:0.5.0"
@@ -8421,6 +8465,42 @@ __metadata:
   bin:
     md2html: ./bin/md2html.js
   checksum: 2b2a941d2cc6ce6c65002e6e961f66e4b839492a489e367d488fbdb9758ddbba0f6a762d7d015f417d96585a8c74d1da6ed6e2a0ba1bcbc2729e86dbd3ec6ae1
+  languageName: node
+  linkType: hard
+
+"markdownlint-cli2-formatter-default@npm:0.0.3":
+  version: 0.0.3
+  resolution: "markdownlint-cli2-formatter-default@npm:0.0.3"
+  peerDependencies:
+    markdownlint-cli2: ">=0.0.4"
+  checksum: 9f42c30e9588c2e2f28577135ed734cfce04077a2468eabbe573f1ff738d87666168fd18594c333ca48a2caf0712d79ef07b01b54fef4e5aa758307b3ef260f4
+  languageName: node
+  linkType: hard
+
+"markdownlint-cli2@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "markdownlint-cli2@npm:0.5.0"
+  dependencies:
+    globby: 13.1.2
+    markdownlint: 0.26.1
+    markdownlint-cli2-formatter-default: 0.0.3
+    micromatch: 4.0.5
+    strip-json-comments: 5.0.0
+    yaml: 2.1.1
+  bin:
+    markdownlint-cli2: markdownlint-cli2.js
+    markdownlint-cli2-config: markdownlint-cli2-config.js
+    markdownlint-cli2-fix: markdownlint-cli2-fix.js
+  checksum: 5ed68faa528def96366635dd0a90a91f8cd623d476eee7d794c952702339a44857fe4dbe4a69bdbc5cd314d2a43fbcaa9867f0eeaf8a2a9c4c5eafb119a5d08d
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:0.26.1":
+  version: 0.26.1
+  resolution: "markdownlint@npm:0.26.1"
+  dependencies:
+    markdown-it: 13.0.1
+  checksum: 0a971abc92086fe7f9a598d2ac288a048e0c340fa5543ab4962ad7614f923fdf0e278d54fa487ea4d36a4fd1429e20b6592ce7f0ad00e95fe823970238cc3049
   languageName: node
   linkType: hard
 
@@ -8435,6 +8515,13 @@ __metadata:
   version: 2.0.4
   resolution: "mdn-data@npm:2.0.4"
   checksum: add3c95e6d03d301b8a8bcfee3de33f4d07e4c5eee5b79f18d6d737de717e22472deadf67c1a8563983c0b603e10d7df40aa8e5fddf18884dfe118ccec7ae329
+  languageName: node
+  linkType: hard
+
+"mdurl@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "mdurl@npm:1.0.1"
+  checksum: 71731ecba943926bfbf9f9b51e28b5945f9411c4eda80894221b47cc105afa43ba2da820732b436f0798fd3edbbffcd1fc1415843c41a87fea08a41cc1e3d02b
   languageName: node
   linkType: hard
 
@@ -8482,7 +8569,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
+"micromatch@npm:4.0.5, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
   version: 4.0.5
   resolution: "micromatch@npm:4.0.5"
   dependencies:
@@ -11535,6 +11622,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strip-json-comments@npm:5.0.0":
+  version: 5.0.0
+  resolution: "strip-json-comments@npm:5.0.0"
+  checksum: 99cad07ccc3b86cc7bb8a9274a801b0660cbd595189ad291f6e206b8d7b23d90eed3119cdae44e126d9563796024b3ef0e7de2eeee4634b3b9019bafb62803e7
+  languageName: node
+  linkType: hard
+
 "strip-json-comments@npm:^3.1.0, strip-json-comments@npm:^3.1.1":
   version: 3.1.1
   resolution: "strip-json-comments@npm:3.1.1"
@@ -11883,6 +11977,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.33.0
     eslint: 8.21.0
     markdown: 0.5.0
+    markdownlint-cli2: ^0.5.0
     prettier: 2.7.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -12096,6 +12191,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 96d3030cb01143570567cb4f3a616b10df65f658f0e74e853e77a089a6a954e35c800be7db8b9bfe9a1ae05d9c2897e281359f65e4caa1caf266368e1c4febd3
+  languageName: node
+  linkType: hard
+
+"uc.micro@npm:^1.0.1, uc.micro@npm:^1.0.5":
+  version: 1.0.6
+  resolution: "uc.micro@npm:1.0.6"
+  checksum: 6898bb556319a38e9cf175e3628689347bd26fec15fc6b29fa38e0045af63075ff3fea4cf1fdba9db46c9f0cbf07f2348cd8844889dd31ebd288c29fe0d27e7a
   languageName: node
   linkType: hard
 
@@ -12907,6 +13009,13 @@ __metadata:
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
+  languageName: node
+  linkType: hard
+
+"yaml@npm:2.1.1":
+  version: 2.1.1
+  resolution: "yaml@npm:2.1.1"
+  checksum: f48bb209918aa57cfaf78ef6448d1a1f8187f45c746f933268b7023dc59e5456004611879126c9bb5ea55b0a2b1c2b392dfde436931ece0c703a3d754562bb96
   languageName: node
   linkType: hard
 
