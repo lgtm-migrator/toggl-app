@@ -5,7 +5,6 @@ env:
 extends:
   - plugin:@typescript-eslint/eslint-recommended
   - plugin:@typescript-eslint/recommended
-  - eslint:recommended
 parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaFeatures:
@@ -15,9 +14,6 @@ parserOptions:
 plugins:
   - '@typescript-eslint'
 rules:
-  indent:
-    - error
-    - 2
   linebreak-style:
     - error
     - unix
@@ -27,3 +23,9 @@ rules:
   semi:
     - error
     - never
+  '@typescript-eslint/ban-types':
+    - error
+    - extendDefaults: false
+      types:
+        '{}': false
+  '@typescript-eslint/no-explicit-any': off

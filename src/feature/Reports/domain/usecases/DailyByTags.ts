@@ -66,12 +66,12 @@ function calculateStartOfWeek(date: Date): Date {
   const day = startDate.getDay()
   const decreaseByDays = () => {
     switch (day) {
-    case 0:
-      return 6
-    case 1:
-      return 0
-    default:
-      return day - 1
+      case 0:
+        return 6
+      case 1:
+        return 0
+      default:
+        return day - 1
     }
   }
   startDate.setDate(startDate.getDate() - decreaseByDays())
