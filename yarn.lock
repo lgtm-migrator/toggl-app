@@ -2890,7 +2890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.33.0":
+"@typescript-eslint/eslint-plugin@npm:5.33.0":
   version: 5.33.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.33.0"
   dependencies:
@@ -2947,7 +2947,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.33.0":
+"@typescript-eslint/parser@npm:5.33.0":
   version: 5.33.0
   resolution: "@typescript-eslint/parser@npm:5.33.0"
   dependencies:
@@ -8477,7 +8477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.5.0":
+"markdownlint-cli2@npm:0.5.0":
   version: 0.5.0
   resolution: "markdownlint-cli2@npm:0.5.0"
   dependencies:
@@ -11973,11 +11973,11 @@ __metadata:
     "@types/react-router": 5.1.18
     "@types/react-router-dom": 5.3.3
     "@types/styled-components": 5.1.26
-    "@typescript-eslint/eslint-plugin": ^5.33.0
-    "@typescript-eslint/parser": ^5.33.0
+    "@typescript-eslint/eslint-plugin": 5.33.0
+    "@typescript-eslint/parser": 5.33.0
     eslint: 8.21.0
     markdown: 0.5.0
-    markdownlint-cli2: ^0.5.0
+    markdownlint-cli2: 0.5.0
     prettier: 2.7.1
     react: 18.2.0
     react-dom: 18.2.0
